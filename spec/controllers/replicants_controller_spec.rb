@@ -28,15 +28,4 @@ describe ReplicantsController, type: :controller do
       end
     end
   end
-
-  GOOD_REPLICANTS.each do |name, ua_string|
-    context "when user agent is #{name}" do
-      let(:user_agent_string) { ua_string }
-
-      it 'is successful' do
-        expect(response.status).to eql 200
-        expect(response.body).to match(/Rick Deckard/)
-      end
-    end
-  end
 end
