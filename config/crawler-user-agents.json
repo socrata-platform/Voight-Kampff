@@ -1,6 +1,6 @@
 [
   {
-    "pattern": "",
+    "pattern": "^\\s*$",
     "instances": [],
     "types": [
       "bad"
