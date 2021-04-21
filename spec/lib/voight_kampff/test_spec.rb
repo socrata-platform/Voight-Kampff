@@ -39,6 +39,18 @@ describe VoightKampff::Test do
       end
     end
 
+    GOOD_REPLICANTS.each do |name, ua_string|
+      context "when user agent is #{name}" do
+        let(:user_agent_string) { ua_string }
+
+        it 'is a good replicant' do
+          expect(subject.bot?).to be true
+          expect(subject.bot?(:bad)).to be false
+          expect(subject.human?).to be false
+        end
+      end
+    end
+
     context 'after the first run' do
       before { VoightKampff::Test.new('anything').bot? }
 
@@ -77,7 +89,7 @@ describe VoightKampff::Test do
 
     context 'using user agent not described by custom patterns' do
       let(:user_agent_string) {
-        'DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-just-kidding-Mobile/2.1; +http://www.google.com/bot.html)'
+        'DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)'
       }
 
       it 'gets detected as a human' do
