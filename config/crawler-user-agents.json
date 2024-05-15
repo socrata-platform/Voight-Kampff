@@ -24,6 +24,8 @@
     ]
   }
   ,
+  }
+  ,
   {
     "pattern": "Googlebot-Mobile",
     "instances": [
@@ -144,6 +146,9 @@
     "instances": [
       "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/W.X.Y.Z Mobile Safari/537.36 (compatible; Google-InspectionTool/1.0)",
       "Mozilla/5.0 (compatible; Google-InspectionTool/1.0)"
+    ],
+    "types": [
+      "bad"
     ]
   }
   ,
@@ -153,6 +158,9 @@
     "instances": [
       "Mozilla/5.0 (X11; Linux x86_64; Storebot-Google/1.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36",
       "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012; Storebot-Google/1.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36"
+    ],
+    "types": [
+      "bad"
     ]
   }
   ,
@@ -161,6 +169,9 @@
     "url": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers",
     "instances": [
       "GoogleOther"
+    ],
+    "types": [
+      "bad"
     ]
   }
   ,
@@ -4797,7 +4808,10 @@
     "instances": [
       "Viber"
     ],
-    "url": "https://www.viber.com/"
+    "url": "https://www.viber.com/",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "e\\.ventures Investment Crawler",
@@ -4820,7 +4834,10 @@
       "Mozilla/5.0 (compatible;PetalBot;+https://webmaster.petalsearch.com/site/petalbot)",
       "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)"
     ],
-    "url": "https://webmaster.petalsearch.com/site/petalbot"
+    "url": "https://webmaster.petalsearch.com/site/petalbot",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "virustotal",
@@ -4829,7 +4846,10 @@
       "Mozilla\/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US) AppEngine-Google; (+http:\/\/code.google.com\/appengine; appid: s~virustotalcloud)",
       "AppEngine-Google; (+http:\/\/code.google.com\/appengine; appid: s~virustotalcloud)"
     ],
-    "url": "https://www.virustotal.com/gui/home/url"
+    "url": "https://www.virustotal.com/gui/home/url",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "(^| )PTST\\/",
@@ -4854,6 +4874,9 @@
     "url": "https://www.cookiebot.com/",
     "instances": [
       "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; Cookiebot/1.0; +http://cookiebot.com/) Chrome/97.0.4692.71 Safari/537.36"
+    ],
+    "types": [
+      "bad"
     ]
   },
 	{
@@ -4862,7 +4885,10 @@
 		"url": "http://www.trovit.com/bot.html",
 		"instances": [
             "Mozilla/5.0 (compatible; trovitBot 1.0; +http://www.trovit.com/bot.html)"
-        ]
+        ],
+    "types": [
+      "bad"
+    ]
 	},
   {
     "pattern": "seostar\\.co",
@@ -4870,6 +4896,9 @@
     "url": "https://seostar.co/robot/",
     "instances": [
       "Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)"
+    ],
+    "types": [
+      "bad"
     ]
   },
   {
@@ -4878,6 +4907,9 @@
     "url": "https://www.ionos.de/terms-gtc/faq-crawler-en",
     "instances": [
       "IonCrawl (https://www.ionos.de/terms-gtc/faq-crawler-en/)"
+    ],
+    "types": [
+      "bad"
     ]
   },
   {
@@ -4886,6 +4918,9 @@
     "url": "https://uptime.kuma.pet/",
     "instances": [
       "Uptime-Kuma/1.18.0"
+    ],
+    "types": [
+      "bad"
     ]
   },
   {
@@ -4894,6 +4929,9 @@
     "url": "https://bot.seekport.com",
     "instances": [
       "Mozilla/5.0 (compatible; SeekportBot; +https://bot.seekport.com)"
+    ],
+    "types": [
+      "bad"
     ]
   },
   {
@@ -4902,6 +4940,9 @@
     "url": "https://www.freshworks.com/website-monitoring/",
     "instances": [
       "FreshpingBot/1.0 (+https://freshping.io/)"
+    ],
+    "types": [
+      "bad"
     ]
   },
   {
@@ -4918,6 +4959,9 @@
     "url": "https://www.criteo.com/",
     "instances": [
       "CriteoBot/0.1 (+https://www.criteo.com/criteo-crawler/)"
+    ],
+    "types": [
+      "bad"
     ]
   },
   {
@@ -4934,6 +4978,9 @@
     "url": "https://betteruptime.com/",
     "instances": [
       "Better Uptime Bot Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+    ],
+    "types": [
+      "bad"
     ]
   },
   {
@@ -4949,6 +4996,9 @@
     "instances": [
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36 (compatible; Google-Read-Aloud; +https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)",
       "Mozilla/5.0 (Linux; Android 7.0; SM-G930V Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36 (compatible; Google-Read-Aloud; +https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)"
+    ],
+    "types": [
+      "bad"
     ]
   },
   {
@@ -4956,6 +5006,9 @@
     "addition_date": "2023/05/24",
     "instances": [
       "Valve/Steam HTTP Client 1.0 (SteamChatURLLookup)"
+    ],
+    "types": [
+      "bad"
     ]
   },
   {
@@ -4965,7 +5018,10 @@
       "OdklBot/1.0 (share@odnoklassniki.ru)",
         "Mozilla/5.0 (compatible; OdklBot/1.0 like Linux; klass@odnoklassniki.ru)"
     ],
-    "url": "https://odnoklassniki.ru/"
+    "url": "https://odnoklassniki.ru/",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "GPTBot",
@@ -4973,7 +5029,10 @@
     "instances": [
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)"
     ],
-    "url": "https://platform.openai.com/docs/gptbot"
+    "url": "https://platform.openai.com/docs/gptbot",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "ChatGPT-User",
@@ -4989,13 +5048,19 @@
     "instances": [
       "Mozilla/5.0 (compatible; YandexRenderResourcesBot/1.0; +http://yandex.com/bots) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0"
     ],
-    "url": "http://yandex.com/bots"
+    "url": "http://yandex.com/bots",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "LightspeedSystemsCrawler",
     "addition_date": "2023/08/16",
     "instances": [
       "LightspeedSystemsCrawler Mozilla/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US"
+    ],
+    "types": [
+      "bad"
     ]
   },
   {
@@ -5004,7 +5069,10 @@
     "instances": [
       "Mozilla/5.0 (compatible; ev-crawler/1.0; +https://headline.com/legal/crawler)"
     ],
-    "url": "https://headline.com/legal/crawler"
+    "url": "https://headline.com/legal/crawler",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "BitSightBot\\/",
@@ -5012,7 +5080,10 @@
     "instances": [
       "Mozilla/5.0 (compatible; BitSightBot/1.0)"
     ],
-    "url": "https://www.bitsight.com"
+    "url": "https://www.bitsight.com",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "woorankreview\\/",
@@ -5021,7 +5092,10 @@
       "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 (compatible; woorankreview/2.0; +https://www.woorank.com/)",
       "Mozilla/5.0 (compatible; woorankreview/2.0; +https://www.woorank.com/)"
     ],
-    "url": "https://www.woorank.com/"
+    "url": "https://www.woorank.com/",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "Google-Safety",
@@ -5031,7 +5105,10 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.179 Safari/537.36 (compatible; Google-Safety; +http://www.google.com/bot.html)",
       "Google-Safety"
     ],
-    "url": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers"
+    "url": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "AwarioBot",
@@ -5039,7 +5116,10 @@
     "instances": [
       "Mozilla/5.0 (compatible; AwarioBot/1.0; +https://awario.com/bots.html)"
     ],
-    "url": "https://awario.com/bots.html"
+    "url": "https://awario.com/bots.html",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "DataForSeoBot",
@@ -5047,7 +5127,10 @@
     "instances": [
       "Mozilla/5.0 (compatible; DataForSeoBot/1.0; +https://dataforseo.com/dataforseo-bot)"
     ],
-    "url": "https://dataforseo.com/dataforseo-bot"
+    "url": "https://dataforseo.com/dataforseo-bot",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "Linespider",
@@ -5056,7 +5139,10 @@
       "Mozilla/5.0 (compatible; Linespider/1.1; +https://lin.ee/4dwXkTH)",
 	    "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Linespider/1.1; +https://lin.ee/4dwXkTH) Chrome/W.X.Y.Z Safari/537.36"
     ],
-    "url": "https://help2.line.me/linesearchbot/web/?contentId=50006055&lang=en"
+    "url": "https://help2.line.me/linesearchbot/web/?contentId=50006055&lang=en",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "WellKnownBot",
@@ -5064,7 +5150,10 @@
     "instances": [
       "Mozilla/5.0 (compatible; WellKnownBot/0.1; +https://well-known.dev/about/#bot)"
     ],
-    "url": "https://well-known.dev/about/#bot)"
+    "url": "https://well-known.dev/about/#bot)",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "A Patent Crawler",
@@ -5080,7 +5169,10 @@
     "instances": [
       "Mozilla/5.0 (compatible; StractBot/0.1; open source search engine; +https://trystract.com/webmasters)"
     ],
-    "url": "https://trystract.com/webmasters"
+    "url": "https://trystract.com/webmasters",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "search\\.marginalia\\.nu",
@@ -5088,7 +5180,10 @@
     "instances": [
       "search.marginalia.nu"
     ],
-    "url": "https://search.marginalia.nu"
+    "url": "https://search.marginalia.nu",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "YouBot",
@@ -5104,7 +5199,10 @@
     "instances": [
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Nicecrawler/1.1; +http://www.nicecrawler.com/) Chrome/90.0.4430.97 Safari/537.36"
     ],
-    "url": "http://www.nicecrawler.com/"
+    "url": "http://www.nicecrawler.com/",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "Neevabot",
@@ -5112,7 +5210,10 @@
     "instances": [
       "Mozilla/5.0 (compatible; Neevabot/1.0; +https://neeva.com/neevabot)"
     ],
-    "url": "https://neeva.com/neevabot"
+    "url": "https://neeva.com/neevabot",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "BrightEdge Crawler",
@@ -5120,7 +5221,10 @@
     "instances": [
       "BrightEdge Crawler/1.0 (crawler@brightedge.com)"
     ],
-    "url": "https://www.brightedge.com/"
+    "url": "https://www.brightedge.com/",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "SiteCheckerBotCrawler",
@@ -5128,7 +5232,10 @@
     "instances": [
       "SiteCheckerBotCrawler/1.0 (+http://sitechecker.pro)"
     ],
-    "url": "http://sitechecker.pro"
+    "url": "http://sitechecker.pro",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "TombaPublicWebCrawler",
@@ -5136,7 +5243,10 @@
     "instances": [
       "Mozilla/5.0 (compatible; TombaPublicWebCrawler/1.0; +https://tombascraper.com)"
     ],
-    "url": "https://tombascraper.com"
+    "url": "https://tombascraper.com",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "CrawlyProjectCrawler",
@@ -5152,7 +5262,10 @@
     "instances": [
       "Mozilla/5.0 (Windows NT 6.1; Win64; x64; +http://www.komodia.com/newwiki/index.php/URL_server_crawler) KomodiaBot/1.0"
     ],
-    "url": "http://www.komodia.com/newwiki/index.php/URL_server_crawler"
+    "url": "http://www.komodia.com/newwiki/index.php/URL_server_crawler",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "KStandBot",
@@ -5160,7 +5273,10 @@
     "instances": [
       "Mozilla/5.0 (Windows NT 6.1; Win64; x64; +http://url-classification.io/wiki/index.php?title=URL_server_crawler) KStandBot/1.0"
     ],
-    "url": "http://url-classification.io"
+    "url": "http://url-classification.io",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "CISPA Webcrawler",
@@ -5168,7 +5284,10 @@
     "instances": [
       "CISPA Webcrawler (https://vuln-notify-checker.cispa.saarland)"
     ],
-    "url": "https://vuln-notify-checker.cispa.saarland"
+    "url": "https://vuln-notify-checker.cispa.saarland",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "MTRobot",
@@ -5176,7 +5295,10 @@
     "instances": [
       "MTRobot/0.2 (Metrics Tools Analytics Crawler; https://metrics-tools.de/robot.html; crawler@metrics-tools.de)"
     ],
-    "url": "https://metrics-tools.de/robot.html"
+    "url": "https://metrics-tools.de/robot.html",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "hyscore\\.io",
@@ -5192,7 +5314,10 @@
     "instances": [
       "Mozilla/5.0 (Linux) (compatible; AlexandriaOrgBot/1.0; +https://www.alexandria.org/bot.html)"
     ],
-    "url": "https://www.alexandria.org/bot.html"
+    "url": "https://www.alexandria.org/bot.html",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "2ip bot",
@@ -5208,7 +5333,10 @@
     "instances": [
       "Mozilla/5.0 (compatible; Yellowbrandprotectionbot/1.0; +https://www.yellowbp.com/bot.html)"
     ],
-    "url": "https://www.yellowbp.com/bot.html"
+    "url": "https://www.yellowbp.com/bot.html",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "SEOlizer",
@@ -5216,7 +5344,10 @@
     "instances": [
       "SEOlizer/1.1 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13 (+https://www.seolizer.de/bot.html)"
     ],
-    "url": "https://www.seolizer.de/bot.html"
+    "url": "https://www.seolizer.de/bot.html",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "vuhuvBot",
@@ -5224,7 +5355,10 @@
     "instances": [
       "Mozilla/5.0 (compatible; vuhuvBot/1.0; +http://vuhuv.com/bot.html)"
     ],
-    "url": "http://vuhuv.com/bot.html"
+    "url": "http://vuhuv.com/bot.html",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "INETDEX-BOT",
@@ -5248,7 +5382,10 @@
     "instances": [
       "Mozilla/5.0 (compatible; t3versionsBot/1.0; +https://www.t3versions.com/bot)"
     ],
-    "url": "https://www.t3versions.com/bot"
+    "url": "https://www.t3versions.com/bot",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "deepnoc",
@@ -5256,7 +5393,10 @@
     "instances": [
       "deepnoc - https://deepnoc.com/bot"
     ],
-    "url": "https://deepnoc.com/bot"
+    "url": "https://deepnoc.com/bot",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "Cocolyzebot",
@@ -5264,7 +5404,10 @@
     "instances": [
       "Mozilla/5.0 (compatible; Cocolyzebot/1.0; https://cocolyze.com/bot)"
     ],
-    "url": "https://cocolyze.com/bot"
+    "url": "https://cocolyze.com/bot",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "hypestat",
@@ -5272,7 +5415,10 @@
     "instances": [
       "Mozilla/5.0 (compatible; hypestat/1.0; +https://hypestat.com/bot)"
     ],
-    "url": "https://hypestat.com/bot"
+    "url": "https://hypestat.com/bot",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "ReverseEngineeringBot",
@@ -5288,7 +5434,10 @@
     "instances": [
       "Mozilla/5.0 (compatible; Semanticbot/1.0; +http://sempi.tech/bot.html)"
     ],
-    "url": "http://sempi.tech/bot.html"
+    "url": "http://sempi.tech/bot.html",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "Iframely",
@@ -5345,7 +5494,10 @@
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36 Google-PageRenderer Google (+https://developers.google.com/+/web/snippet/)",
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36 Google (+https://developers.google.com/+/web/snippet/"
     ],
-    "url": "https://developers.google.com/+/web/snippet"
+    "url": "https://developers.google.com/+/web/snippet",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "SenutoBot",
@@ -5361,7 +5513,10 @@
     "instances": [
       "Mozilla/5.0 (compatible; MaCoCu; +https://www.clarin.si/info/macocu-massive-collection-and-curation-of-monolingual-and-bilingual-data/)"
     ],
-    "url": "https://www.clarin.si/info/macocu-massive-collection-and-curation-of-monolingual-and-bilingual-data"
+    "url": "https://www.clarin.si/info/macocu-massive-collection-and-curation-of-monolingual-and-bilingual-data",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "NewsBlur",
@@ -5369,7 +5524,10 @@
     "instances": [
       "NewsBlur Feed Fetcher - 1 subscriber - http://www.newsblur.com/site/0000000/webpage (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15)"
     ],
-    "url": "http://www.newsblur.com"
+    "url": "http://www.newsblur.com",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "inoreader",
@@ -5385,7 +5543,10 @@
     "instances": [
       "NetSystemsResearch studies the availability of various services across the internet. Our website is netsystemsresearch.com"
     ],
-    "url": "http://netsystemsresearch.com"
+    "url": "http://netsystemsresearch.com",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "PageThing",
@@ -5416,7 +5577,10 @@
     "instances": [
       "Mozilla/5.0 (compatible; ImagesiftBot; +imagesift.com)"
     ],
-    "url": "https://imagesift.com"
+    "url": "https://imagesift.com",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "Expanse",
@@ -5424,7 +5588,10 @@
     "instances": [
       "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com"
     ],
-    "url": "https://www.paloaltonetworks.com/cortex/cortex-xpanse"
+    "url": "https://www.paloaltonetworks.com/cortex/cortex-xpanse",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "InternetMeasurement",
@@ -5432,7 +5599,10 @@
     "instances": [
       "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
     ],
-    "url": "https://internet-measurement.com"
+    "url": "https://internet-measurement.com",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "^BW\\/",
@@ -5460,7 +5630,10 @@
       "Audisto Crawler (mobile; essential; +https://audisto.com/bot)",
       "Audisto Crawler (desktop; essential; +https://audisto.com/bot)"
     ],
-    "url": "https://audisto.com/help/crawler/bot/"
+    "url": "https://audisto.com/help/crawler/bot/",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "PerplexityBot\\/",
@@ -5468,7 +5641,10 @@
     "instances": [
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)"
     ],
-    "url": "https://docs.perplexity.ai/docs/perplexitybot"
+    "url": "https://docs.perplexity.ai/docs/perplexitybot",
+    "types": [
+      "bad"
+    ]
   },
   {
     "pattern": "[cC]laude[bB]ot",
