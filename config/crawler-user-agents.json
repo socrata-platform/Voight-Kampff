@@ -24,6 +24,8 @@
     ]
   }
   ,
+  }
+  ,
   {
     "pattern": "Googlebot-Mobile",
     "instances": [
