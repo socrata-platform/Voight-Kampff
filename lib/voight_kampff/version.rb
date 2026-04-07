@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
 module VoightKampff
-  VERSION = '1.3.0'
+  VERSION = File.read(File.join(__dir__, '../../VERSION')).strip
 end
