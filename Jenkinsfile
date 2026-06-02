@@ -4,7 +4,7 @@ commonPipeline(
     jobName: 'voight_kampff',
     languageOptions: [
         ruby: [
-            version: '2.7.7',
+            version: '3.4.7',
         ],
     ],
     projects: [
