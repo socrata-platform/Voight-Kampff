@@ -1,3 +1,3 @@
-source 'https://repo.socrata.com/artifactory/api/gems/rubygems-virtual/'
+source 'https://tylertech.jfrog.io/artifactory/rubygems-virtual/'
 
 gemspec

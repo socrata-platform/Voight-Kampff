@@ -1,10 +1,10 @@
-@Library('socrata-pipeline-library@10.2.1') _
+@Library('socrata-pipeline-library@11.2.0') _
 
 commonPipeline(
     jobName: 'voight_kampff',
     languageOptions: [
         ruby: [
-            version: '2.7.7',
+            version: '3.4.7',
         ],
     ],
     projects: [
@@ -16,6 +16,7 @@ commonPipeline(
                 versionFile: 'VERSION',
             ],
             type: 'library',
+            publishToTylerArtifactory: true,
         ]
     ],
     teamsChannelWebhookId: 'WORKFLOW_EVENTING_AUTOMATION',

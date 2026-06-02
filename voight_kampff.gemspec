@@ -27,4 +27,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'combustion', '~> 1.1'
   s.add_development_dependency 'rails', '~> 5.2'
   s.add_development_dependency 'rspec-rails', '~> 3.8'
+
+  if s.respond_to?(:metadata)
+    s.metadata['allowed_push_host'] = "https://tylertech.jfrog.io"
+  end
 end
