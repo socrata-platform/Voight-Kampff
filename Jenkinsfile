@@ -1,4 +1,4 @@
-@Library('socrata-pipeline-library@11.2.0')
+@Library('socrata-pipeline-library@11.2.0') _
 
 commonPipeline(
     jobName: 'voight_kampff',
