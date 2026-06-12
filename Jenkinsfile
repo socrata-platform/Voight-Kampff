@@ -13,6 +13,7 @@ commonPipeline(
             language: 'ruby',
             paths: [
                 buildContext: '.',
+                testContext: '.',
                 versionFile: 'VERSION',
             ],
             type: 'library',
